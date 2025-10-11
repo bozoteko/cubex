@@ -2,10 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cubex Crossplay Sneak Peek</title>
 
-  <!-- Discord Embed -->
+  <!-- Discord/Twitter Embed -->
   <meta property="og:site_name" content="Cubex Crossplay" />
   <meta property="og:title" content="Click to view comparison" />
   <meta property="og:description" content="Lobby Screenshot" />
@@ -15,8 +16,6 @@
   <meta property="og:url" content="https://cubexcrossplay.net/sneakpeek" />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#00BBFF" />
-
-  <!-- Twitter Embed -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Click to view comparison" />
   <meta name="twitter:description" content="Lobby Screenshot" />
@@ -24,38 +23,93 @@
   <meta name="twitter:image:alt" content="Cubex Crossplay Lobby Screenshot" />
 
   <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-      background-color: #1e1e1e;
-      color: white;
-      text-align: center;
-    }
-
-    img {
-      max-width: 90%;
-      height: auto;
+    html { height: 100%; }
+    body { font-size: 16px; font-family:sans-serif; background:#000; height: 100%; overflow: hidden; margin: 0; }
+    /* Optional styles for Discord iframe overlay */
+    .discord-embed {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 350px;
+      height: 500px;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-      margin-bottom: 20px;
-    }
-
-    a {
-      color: #00bfff;
-      text-decoration: none;
-      font-weight: bold;
+      border: none;
+      z-index: 9999;
     }
   </style>
 </head>
-
 <body>
-  <img src="https://cubexcrossplay.net/preview.png" alt="Cubex Crossplay Sneak Peek" />
-  <h1>Cubex Crossplay Sneak Peek</h1>
-  <p>View the <a href="https://cubexcrossplay.net/sneakpeek">full comparison</a> here.</p>
+
+  <!-- Your ICAT embed app -->
+  <div class="icat-embed-element" style="width:100%;height:100%;">
+    <icat-app id="icat-77852828999999762af47507a1"></icat-app>
+  </div>
+
+  <!-- Discord widget embed -->
+  <iframe 
+    class="discord-embed"
+    src="https://discord.com/widget?id=YOUR_SERVER_ID&theme=dark" 
+    allowtransparency="true" 
+    frameborder="0" 
+    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+  </iframe>
+
+</script><script type="text/javascript">(function(){ const app = document.getElementById('icat-77852828999999762af47507a176e91ee31'); app.isEmbed=true; app.loadAppData({"activeSet":"76514843000000119826a42cf40bb01f920","uiVisibility":{"antiAliasSelect":true,"fullscreenButton":true,"gridSelect":true,"helpButton":true,"layersButton":true,"layoutTabs":true,"loopButton":true,"mediaInfo":true,"pixelDataButton":false,"progressBar":true,"setSelect":true,"speedSelect":true,"startEndTime":false,"timeDisplay":true,"titleBar":false,"videoControls":true,"zoomSelect":true,"contentSidebar":false,"timeline":false,"controlBar":true,"addFilterBtn":false,"addLogoBtn":false,"inOutSlider":false,"timelineInOutSlider":false,"appSettingsBtn":true},"sets":[{"id":"76514843000000119826a42cf40bb01f920","created":1759980206307,"label":"Set 1","antiAlias":false,"endTime":1e+29,"grid":0,"layout":"split","overlayOrder":[],"looping":true,"boomerang":false,"mediaOrder":["76924118999999762e69a07843a1b4a0122","769246754da124dcf3905d8c23"],"x":0,"y":0,"z":67.78645833333333,"speed":1,"splitposition":0.5,"startTime":0,"time":0,"viewport":{"top":44,"left":0,"paneWidth":0,"paneHeight":0,"height":0,"width":0,"minZoom":0,"fitScale":1,"fitWidth":1920,"fitHeight":1080,"fitPaneWidth":1920,"fitPaneHeight":1080,"contentWidth":1920,"contentHeight":1080},"gamma":1,"exposure":1,"media":[{"id":"76924118999999762e69a07843a1b4a0122","created":1759980210401,"codec":"PNG","bitrate":0,"width":1920,"height":1080,"type":"image","fps":0,"duration":0,"size":2051272,"modified":1759948827944,"hasAudio":false,"timestamps":[],"path":"minecraft.png","name":"minecraft.png","base":"minecraft","originalBase":"minecraft","extension":"png","format":"PNG","x":0,"y":0,"z":100,"startTime":0,"thumbnails":[],"labelVisibility":{"codec":false,"bitrate":false,"dimensions":false,"format":false,"fps":false,"duration":false,"startTime":false},"muted":true,"visible":true,"shaderId":"","shaderInputs":[],"shaderSettings":{},"shaderSource":"","showShader":true,"src":"minecraft.png","mediaOverlay":"","frameImages":[],"showFrameImages":true,"infoTexts":[],"showInfoText":false},{"id":"769246754da124dcf3905d8c23","created":1759980210406,"codec":"PNG","bitrate":0,"width":1920,"height":1080,"type":"image","fps":0,"duration":0,"size":2249935,"modified":1759948813687,"hasAudio":false,"timestamps":[],"path":"roblox.png","name":"roblox.png","base":"roblox","originalBase":"roblox","extension":"png","format":"PNG","x":0,"y":0,"z":100,"startTime":0,"thumbnails":[],"labelVisibility":{"codec":false,"bitrate":false,"dimensions":false,"format":false,"fps":false,"duration":false,"startTime":false},"muted":true,"visible":true,"shaderId":"","shaderInputs":[],"shaderSettings":{},"shaderSource":"","showShader":true,"src":"roblox.png","mediaOverlay":"","frameImages":[],"showFrameImages":true,"infoTexts":[],"showInfoText":false}],"overlays":[]}]});})()</script></body></html>  <script type="text/javascript">
+    (function(){ 
+      const app = document.getElementById('icat-77852828999999762af47507a176e91ee31'); 
+      app.isEmbed=true; 
+      app.loadAppData({
+        "activeSet":"76514843000000119826a42cf40bb01f920",
+        "uiVisibility":{
+          "antiAliasSelect":true,
+          "fullscreenButton":true,
+          "gridSelect":true,
+          "helpButton":true,
+          "layersButton":true,
+          "layoutTabs":true,
+          "loopButton":true,
+          "mediaInfo":true,
+          "pixelDataButton":false,
+          "progressBar":true,
+          "setSelect":true,
+          "speedSelect":true,
+          "startEndTime":false,
+          "timeDisplay":true,
+          "titleBar":false,
+          "videoControls":true,
+          "zoomSelect":true,
+          "contentSidebar":false,
+          "timeline":false,
+          "controlBar":true,
+          "addFilterBtn":false,
+          "addLogoBtn":false,
+          "inOutSlider":false,
+          "timelineInOutSlider":false,
+          "appSettingsBtn":true
+        },
+        "sets":[
+          {
+            "id":"76514843000000119826a42cf40bb01f920",
+            "created":1759980206307,
+            "label":"Set 1",
+            "antiAlias":false,
+            "endTime":1e+29,
+            "grid":0,
+            "layout":"split",
+            "overlayOrder":[],
+            "looping":true,
+            "boomerang":false,
+            "mediaOrder":["76924118999999762e69a07843a1b4a0122","769246754da124dcf3905d8c23"],
+            "media":[
+              {"src":"minecraft.png"},
+              {"src":"roblox.png"}
+            ]
+          }
+        ]
+      });
+    })();
+  </script>
+
 </body>
 </html>
-</script><script type="text/javascript">(function(){ const app = document.getElementById('icat-77852828999999762af47507a176e91ee31'); app.isEmbed=true; app.loadAppData({"activeSet":"76514843000000119826a42cf40bb01f920","uiVisibility":{"antiAliasSelect":true,"fullscreenButton":true,"gridSelect":true,"helpButton":true,"layersButton":true,"layoutTabs":true,"loopButton":true,"mediaInfo":true,"pixelDataButton":false,"progressBar":true,"setSelect":true,"speedSelect":true,"startEndTime":false,"timeDisplay":true,"titleBar":false,"videoControls":true,"zoomSelect":true,"contentSidebar":false,"timeline":false,"controlBar":true,"addFilterBtn":false,"addLogoBtn":false,"inOutSlider":false,"timelineInOutSlider":false,"appSettingsBtn":true},"sets":[{"id":"76514843000000119826a42cf40bb01f920","created":1759980206307,"label":"Set 1","antiAlias":false,"endTime":1e+29,"grid":0,"layout":"split","overlayOrder":[],"looping":true,"boomerang":false,"mediaOrder":["76924118999999762e69a07843a1b4a0122","769246754da124dcf3905d8c23"],"x":0,"y":0,"z":67.78645833333333,"speed":1,"splitposition":0.5,"startTime":0,"time":0,"viewport":{"top":44,"left":0,"paneWidth":0,"paneHeight":0,"height":0,"width":0,"minZoom":0,"fitScale":1,"fitWidth":1920,"fitHeight":1080,"fitPaneWidth":1920,"fitPaneHeight":1080,"contentWidth":1920,"contentHeight":1080},"gamma":1,"exposure":1,"media":[{"id":"76924118999999762e69a07843a1b4a0122","created":1759980210401,"codec":"PNG","bitrate":0,"width":1920,"height":1080,"type":"image","fps":0,"duration":0,"size":2051272,"modified":1759948827944,"hasAudio":false,"timestamps":[],"path":"minecraft.png","name":"minecraft.png","base":"minecraft","originalBase":"minecraft","extension":"png","format":"PNG","x":0,"y":0,"z":100,"startTime":0,"thumbnails":[],"labelVisibility":{"codec":false,"bitrate":false,"dimensions":false,"format":false,"fps":false,"duration":false,"startTime":false},"muted":true,"visible":true,"shaderId":"","shaderInputs":[],"shaderSettings":{},"shaderSource":"","showShader":true,"src":"minecraft.png","mediaOverlay":"","frameImages":[],"showFrameImages":true,"infoTexts":[],"showInfoText":false},{"id":"769246754da124dcf3905d8c23","created":1759980210406,"codec":"PNG","bitrate":0,"width":1920,"height":1080,"type":"image","fps":0,"duration":0,"size":2249935,"modified":1759948813687,"hasAudio":false,"timestamps":[],"path":"roblox.png","name":"roblox.png","base":"roblox","originalBase":"roblox","extension":"png","format":"PNG","x":0,"y":0,"z":100,"startTime":0,"thumbnails":[],"labelVisibility":{"codec":false,"bitrate":false,"dimensions":false,"format":false,"fps":false,"duration":false,"startTime":false},"muted":true,"visible":true,"shaderId":"","shaderInputs":[],"shaderSettings":{},"shaderSource":"","showShader":true,"src":"roblox.png","mediaOverlay":"","frameImages":[],"showFrameImages":true,"infoTexts":[],"showInfoText":false}],"overlays":[]}]});})()</script></body></html>
+<!-- bottom line -->
