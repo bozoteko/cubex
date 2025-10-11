@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cubex Crossplay Sneak Peek</title>
 
+  <!-- Discord/Twitter Embed -->
+  <meta property="og:site_name" content="Cubex Crossplay">
+  <meta property="og:title" content="Click to view comparison">
+  <meta property="og:description" content="Lobby Screenshot">
+  <meta property="og:image" content="https://cubexcrossplay.net/preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://cubexcrossplay.net/sneakpeek">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#00BBFF">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Click to view comparison">
+  <meta name="twitter:description" content="Lobby Screenshot">
+  <meta name="twitter:image" content="https://cubexcrossplay.net/preview.png">
+  <meta name="twitter:image:alt" content="Cubex Crossplay Lobby Screenshot">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+      font-family: sans-serif;
+    }
+    .icat-embed-element {
+      width: 100%;
+      height: 100%;
+    }
+    .discord-embed {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 350px;
+      height: 500px;
+      border: none;
+      border-radius: 10px;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ICAT App -->
+  <div class="icat-embed-element">
+    <icat-app id="icat-77852828999999762af47507a176e91ee31"></icat-app>
+  </div>
+
+  <!-- Discord Widget -->
+  <iframe 
+    class="discord-embed"
+    src="https://discord.com/widget?id=YOUR_SERVER_ID&theme=dark" 
+    allowtransparency="true" 
+    frameborder="0" 
+    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+  </iframe>
+
+  <!-- ICAT App Script (your first 3 + bottom snippets combined) -->
+  <script type="text/javascript">
+    // paste your entire ICAT script bundle here (all of your first 3 snippets + bottom snippet)
+  </script>
+
+</body>
+</html>
